@@ -9,6 +9,7 @@ references:
 author: EinLamYe
 date: 2026-06-29
 tags:
+    - attack.execution
     - attack.stealth
     - attack.t1127
 logsource:
