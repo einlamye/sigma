@@ -8,7 +8,6 @@ description: |
     driver_load rules by catching the install step regardless of driver name.
 references:
     - https://www.loldrivers.io/
-    - https://attack.mitre.org/techniques/T1543/003/
 author: EinLamYe
 date: 2026-06-29
 tags:
@@ -36,7 +35,9 @@ detection:
             - '\Downloads\'
             - '\Public\'
             - '\Windows\Tasks\'
-    condition: all of selection*
+    filter_main_defender:
+        Details|contains: '\ProgramData\Microsoft\Windows Defender\'
+    condition: all of selection* and not 1 of filter_main_*
 falsepositives:
     - Some legitimate software installs drivers from ProgramData or vendor temp paths; baseline and filter known-good driver paths
 level: high

@@ -6,7 +6,6 @@ description: |
     Adversaries timestomp files to blend malicious artifacts into legitimate directories and evade timeline-based forensic analysis.
 references:
     - https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1070.006/T1070.006.md
-    - https://attack.mitre.org/techniques/T1070/006/
 author: EinLamYe
 date: 2026-06-29
 tags:

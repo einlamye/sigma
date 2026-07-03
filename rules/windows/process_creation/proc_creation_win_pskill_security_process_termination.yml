@@ -8,7 +8,7 @@ references:
 author: EinLamYe
 date: 2026-06-29
 tags:
-    - attack.stealth
+    - attack.defense-impairment
     - attack.t1685
 logsource:
     category: process_creation
