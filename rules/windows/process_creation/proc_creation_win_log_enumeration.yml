@@ -29,8 +29,7 @@ detection:
             - ' get-log-info'
             - ' gli '
     selection_cmdlet:
-        CommandLine|contains:
-            - 'Get-EventLog '
+        CommandLine|contains: 'Get-EventLog '
     condition: (all of selection_wevtutil_*) or selection_cmdlet
 falsepositives:
     - Legitimate log review and troubleshooting by administrators or monitoring tooling
