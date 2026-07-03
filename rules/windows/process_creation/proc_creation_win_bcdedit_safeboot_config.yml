@@ -10,12 +10,12 @@ description: |
     Detects the use of "bcdedit.exe" to configure the system to boot into Safe Mode via the "safeboot" option.
     Adversaries (notably ransomware operators) reboot endpoints into Safe Mode to disable endpoint security products that do not load with the limited Safe Mode driver set, allowing encryption or other actions to proceed unhindered.
 references:
-    - https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1688/T1688.md
+    - https://github.com/redcanaryco/atomic-red-team/blob/94153597065a5cb453168ae177f48c9d30e89edb/atomics/T1688/T1688.md
     - https://news.sophos.com/en-us/2020/05/01/ragnar-locker-ransomware-deploys-virtual-machine-to-dodge-security/
 author: EinLamYe
 date: 2026-06-29
 tags:
-    - attack.stealth
+    - attack.defense-impairment
     - attack.t1688
 logsource:
     category: process_creation

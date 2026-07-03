@@ -5,7 +5,7 @@ description: |
     Detects unauthenticated/anonymous retrieval of objects from S3 buckets in CloudTrail (GetObject with an anonymous or AWS-account-only identity).
     Adversaries abuse misconfigured (publicly readable) S3 buckets to collect sensitive data from cloud storage without valid credentials.
 references:
-    - https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1530/T1530.md
+    - https://github.com/redcanaryco/atomic-red-team/blob/94153597065a5cb453168ae177f48c9d30e89edb/atomics/T1530/T1530.md
     - https://docs.aws.amazon.com/AmazonS3/latest/userguide/cloudtrail-logging.html
 author: EinLamYe
 date: 2026-06-29

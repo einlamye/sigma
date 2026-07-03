@@ -8,7 +8,7 @@ description: |
     Detects enumeration of Windows event logs via built-in utilities such as "wevtutil" (enum-logs / get-log-info) and the "Get-EventLog" PowerShell cmdlet.
     Adversaries enumerate event logs to discover available log channels and harvest sensitive information (credentials, host/user details, security tooling activity) prior to further actions or log tampering.
 references:
-    - https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1654/T1654.md
+    - https://github.com/redcanaryco/atomic-red-team/blob/94153597065a5cb453168ae177f48c9d30e89edb/atomics/T1654/T1654.md
     - https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wevtutil
 author: EinLamYe
 date: 2026-06-29

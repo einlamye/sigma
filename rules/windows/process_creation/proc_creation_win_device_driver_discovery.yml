@@ -10,7 +10,7 @@ description: |
     Detects enumeration of installed or loaded device drivers via built-in Windows utilities such as "sc.exe", "pnputil.exe", "fltMC.exe" and the "Get-WindowsDriver" PowerShell cmdlet.
     Adversaries perform device driver discovery to identify installed drivers and security products, often as a precursor to bringing a vulnerable driver (BYOVD) or unloading a filter driver.
 references:
-    - https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1652/T1652.md
+    - https://github.com/redcanaryco/atomic-red-team/blob/94153597065a5cb453168ae177f48c9d30e89edb/atomics/T1652/T1652.md
     - https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/pnputil-command-syntax
 author: EinLamYe
 date: 2026-06-29
